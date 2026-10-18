@@ -1,0 +1,15 @@
+name: GrimeSMP
+version: 1.0.0
+main: com.grimesmp.GrimeSMP
+api-version: '26.2'
+description: Team-based Grime point event (Aces, Clubs, Spades, Diamonds) with tiered kill values.
+author: You
+commands:
+  grime:
+    description: Grime SMP main command
+    usage: /grime [standings|balance|roster|menu|set|clear|points|bonus|event|reset]
+    aliases: [gs]
+permissions:
+  grime.admin:
+    description: Manage teams, points and the event
+    default: op

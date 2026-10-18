@@ -1,0 +1,17 @@
+# Grime SMP config
+
+# Points awarded to the KILLER when they kill a player of this tier
+tier-points:
+  S: 45
+  A: 35
+  B: 25
+  C: 20
+  D: 15
+  F: 10
+
+# After a player is killed for points, killing THAT player again within this many
+# seconds gives no points to anyone. 900 = 15 minutes. Set to 0 to disable.
+kill-cooldown-seconds: 900
+
+# Can teammates damage each other?
+friendly-fire: true
